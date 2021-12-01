@@ -21,12 +21,16 @@ public class Main {
      */
     public static void main(String[] args) {
 
-        try { Thread.sleep(30000); } catch (Exception e) { } // just to slow things down for profiling...
+        try { Thread.sleep(1000); } catch (Exception e) { } // just to slow things down for profiling...
 
         java.util.Random r = new java.util.Random();
-        int p = r.nextInt(100) + 1;
-        int c = r.nextInt(100) + 1;
-        int i = r.nextInt(1000000) + 1;
+        //int p = r.nextInt(200) + 1;
+        //int c = r.nextInt(200) + 1;
+        //int i = r.nextInt(100) + 1;
+
+        int p = 200;
+        int c = 100;
+        int i = 10;
 
         System.out.println("Starting Algorithm Threads with: ");
         System.out.println("  p = " + p);
