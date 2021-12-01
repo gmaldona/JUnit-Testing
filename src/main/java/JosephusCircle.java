@@ -33,23 +33,23 @@ package main.java;
  */
 public abstract class JosephusCircle implements Runnable {
 	
-	int lastManStanding;
+	public int lastManStanding;
 	
 	/**
 	 * Number of iterations of execution in concurrent scenarios.
 	 */
-	final int iterations;
+	public final int iterations;
 	
 	/**
 	 * Number of soldiers in the circle.
 	 */
-	final int soldiers;
+	public final int soldiers;
 	
 	/**
 	 * Magic number to which they are counting. The person at position count
          * shall kill themselves. 
 	 */
-	final int count;
+	public final int count;
 	
 	/**
 	 * Creates a new instance of the Josephus Circle
